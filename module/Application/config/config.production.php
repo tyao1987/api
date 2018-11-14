@@ -3,7 +3,7 @@
 return array(
     'writableDir' => array(
         'base'            => '',
-		'log'             => '/var/log/www/test/',
+		'log'             => '/var/log/www/api/',
     ), 
     'log' => array(
         'enabled'    => true,
