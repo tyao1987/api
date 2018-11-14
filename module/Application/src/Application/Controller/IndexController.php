@@ -16,7 +16,6 @@ class IndexController extends AbstractController
 {
     public function indexAction()
     {
-        throw new \Exception("aaa");
         $filter = array('id','create_time');
         $news = new News();
         $row = $news->getNewsById(51);
